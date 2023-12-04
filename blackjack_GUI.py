@@ -1,4 +1,4 @@
-# Blackjack con GUI - Página 46 (57 del PDF)
+# Blackjack con GUI - Completado en 2023-12-04 por Polomeo
 import random
 import tkinter as tk
 from pathlib import Path
@@ -7,8 +7,6 @@ from pathlib import Path
 assets_folder = Path(__file__).parent / 'assets'
 
 # Clases
-
-
 class Card:
     def __init__(self, suit, value):
         self.suit = suit
@@ -311,9 +309,7 @@ class GameScreen(tk.Tk):
         self.hit_button.pack(side=tk.LEFT, padx=(100, 200))
         self.stick_button.pack(side=tk.LEFT)
 
-
+# Main-loop
 if __name__ == "__main__":
     gs = GameScreen()
     gs.mainloop()
-
-# Página 72 del PDF
