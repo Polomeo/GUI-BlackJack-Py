@@ -4,7 +4,6 @@ import tkinter as tk
 from pathlib import Path
 
 # Dirección a la carpeta de assets
-file_path = Path(__file__)
 assets_folder = Path(__file__).parent / 'assets'
 
 # Clases
